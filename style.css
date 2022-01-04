@@ -1,0 +1,19 @@
+.row{
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 1.5rem;
+}
+.col, .col-2, .col-3{
+    background-color: #659da1;
+    color: white;
+    padding: 1rem;
+}
+.col{
+    flex: 1;
+}
+.col-2{
+    flex: 2;
+}
+.col-3{
+    flex: 3;
+}
